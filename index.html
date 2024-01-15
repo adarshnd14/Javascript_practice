@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table data Entry</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <form onsubmit="return false">
+        <div class=" container ">
+            <br>
+            <h3 class="text-success text-center">VALIDATION FORM</h3>
+            <br>
+            <div class="col-lg-6 m-auto d-block shadow p-3 mb-5 bg-white rounded">
+                <div class="bg-light">
+                    <!-- user name -->
+                    <div class="form-group" style="padding: 5px;">
+                        <label for="">User Name</label>
+                        <input type="text" class="form-control" name="" id="userName">
+                        <span class="text-danger " id="userNameError"></span>
+                    </div>
+
+
+
+                    <!-- email -->
+                    <!-- <div class="form-group" style="padding: 5px;">
+                        <label for="">Email</label>
+                        <input type="email" name="" class="form-control" id="email">
+                        <span class="text-danger " id="emailerr"></span>
+                    </div> -->
+
+                    <!-- age -->
+                    <!-- <div class="form-group" style="padding: 5px;">
+                        <label for="">Age</label>
+                        <input type="number" name="" class="form-control" id="age">
+                        <span class="text-danger " id="ageerr"></span>
+                    </div>
+                    <hr> -->
+                    <!-- password -->
+                    <!-- <div class="form-group" style="padding: 5px;">
+                        <label for="">Password</label>
+                        <input type="text" name="" class="form-control" id="password">
+                        <span class="text-danger " id="passError"></span>
+                    </div> -->
+
+                    <!-- accept -->
+                    <!-- <div class="form-group" style="padding: 5px;">
+                        <input type="checkbox" name="" class="" id="accept">
+                        <label for="">Accept</label>
+                        <span class="text-danger " id="acceptErr"></span>
+                    </div>
+                    <hr> -->
+
+                    <input class="btn btn-success m-2" type="submit" id="login" value="Login">
+                    <input class="btn btn-success m-2" type="reset" id="clear" value="Clear" />
+
+                    <!-- <button id="login" class="btn btn-success">Submit</button> -->
+                </div>
+            </div>
+        </div>
+    </form>
+<br><br>
+<table class="table" id="personalData" >
+    <thead>
+        <tr>
+            <th>UserName</th>
+            <!-- <th>EmailId</th>
+            <th>Age</th>
+            <th>Password</th> -->
+            </tr>
+    </thead>
+    <tbody>
+        
+    </tbody>
+</table>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

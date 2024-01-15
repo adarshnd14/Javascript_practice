@@ -1,0 +1,17 @@
+.labelTag{
+    color: rgb(10, 14, 7);
+    font-weight: bold;
+}
+
+.labelBg{
+    background-color: rgb(240, 76, 84);
+    border: 2px solid rgb(243, 86, 69);
+    border-radius: 5px;
+}
+
+#namesList{
+    /* space required by the element will be preserver */
+    /* visibility: hidden; */
+    /* space required by the element will not be preserver */
+    display: none;
+}

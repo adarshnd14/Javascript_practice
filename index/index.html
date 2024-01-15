@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script>
+
+        //Variables
+
+        //String
+        var message='Hello World';
+        var message1="Hello 'new' '2+3' World";
+        var message2=`Hello ${3+2} World`;
+        console.log(message)
+        console.log(message)
+        console.log(message1)
+        console.log(message2)
+        console.log(message)
+
+        //Number
+        var age=22
+        console.log(age)
+
+        //boolean
+        var hadGirlfriend = false
+        console.log(hadGirlfriend)
+
+        var willHaveBoyfriend=false
+        console.log(willHaveBoyfriend)
+
+        //Undefined
+        var willMarry
+        console.log(willMarry)
+
+        //null
+        var haveKids = null
+        console.log(haveKids)
+
+        //Using if else statement
+        // var per=100
+        // if(per<0||per>100||typeof(per)!=='number'||isNan(per)===true){
+        //     console.log('Invalid');
+        // } else if (per>=70 && per<=100){
+        //     console.log('FCD');
+        // }else if (per>=60 && per<=70){
+        //     console.log('FC');
+        // }else if (per>=35 && per<=60){
+        //     console.log('Pass');
+        // }else {
+        //     console.log('Fail');
+        // }
+
+        //Ternary operator
+        var per = 120;
+        var result =(per<0||per>100||typeof(per)!=='number'||isNaN(per)===true) ? 'Invalid':
+        // per <0 ? console.log('Invalid') :
+        //  per>100 ? console.log('Invalid') : 
+        //     typeof(per)!=='number' ? console.log('Invalid'):
+        //     isNaN(per)===true ? console.log('Invalid'):
+            per>=70 && per<=100 ? 'FCD':
+             per>=60 && per<=70 ?'FC':
+              per>=35 && per<60 ? 'Pass':'Fail';
+              console.log('Result', result );
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
